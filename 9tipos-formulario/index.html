@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario 1</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Ejemplo de formulario basico en html</h1>
+    <form> 
+        <label>Nombre:</label> <br>
+        <input type="text" name="Buscador" id="" placeholder="Indica tu nombre"><br><br>
+        <label> Apellido:</label><br>
+        <input type="text" name="Buscador" id="" placeholder="Como te apellidas"><br><br>
+        <label>Escoja su sexo:</label><br>
+        <input type="radio" id="Hombre" name="gender" value="Hombre">
+        <label for="hombre">Hombre</label><br>
+        <input type="radio" id="Mujer" name="gender" value="Mujer">
+        <label for="Mujer">Mujer</label><br><br>
+        <select name="" id="">
+        <option value="">Vainilla</option>
+        <option value="">Fresa</option>
+        <option value="">Chocolate</option>
+        <option value="">Limón</option>
+        <option value="">Menta</option>
+    </select><br><br>  
+    <button type="submit">Enviar</button>
+    </form>
+
+    <form action="">
+        <h1> <label for="">Formulario con datalist</label><br></h1>
+        <label for="Elige un color">Elige un color:</label>
+        <input list="Elige un color"/>
+        <datalist id="Elige un color">
+            <option value="Blanco"></option>
+            <option value="Azul"></option>
+            <option value="Verde"></option>
+            <option value="Amarillo"></option>
+            <option value="Rojo"></option>
+        </datalist>
+    </form>
+</body>
+</html>
